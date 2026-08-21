@@ -299,6 +299,24 @@ class Mantrabrain_Demo_Importer
      */
     public function ajax_query_demos($return = true)
     {
+        /*
+         * This method doubles as the wp_ajax_query-demos handler. WordPress calls
+         * hook callbacks with '' when do_action() is given no arguments, so the
+         * AJAX entry point arrives here with a falsy $return while the internal
+         * caller passes true.
+         *
+         * Only the AJAX entry point needs guarding: it was reachable by any
+         * logged-in user. The internal call runs while enqueueing assets for the
+         * Starter Sites screen, which add_theme_page() already gates on
+         * switch_themes - the same capability checked here.
+         */
+        if (!$return && !current_user_can('switch_themes')) {
+            wp_send_json_error(array(
+                'errorCode' => 'insufficient_permissions',
+                'errorMessage' => __('Sorry, you are not allowed to view starter sites.', 'mantrabrain-starter-sites'),
+            ));
+        }
+
         $prepared_demos = array();
 
         $current_template = get_option('template');

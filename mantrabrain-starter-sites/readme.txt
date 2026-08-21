@@ -2,8 +2,8 @@
 Contributors: MantraBrain, gangadharkashyap
 Tags: MantraBrain, starter sites, demo import
 Requires at least: 4.7
-Tested up to: 6.8
-Stable tag: 1.1.8
+Tested up to: 7.1
+Stable tag: 1.1.9
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -35,6 +35,11 @@ The manual installation method involves downloading our demo importer plugin and
 
 
 == Changelog ==
+= 1.1.9 - 2026/08/21 =
+* Update - WordPress 7.1 compatibility. Every WordPress function the plugin calls was cross-checked against the 7.1 codebase; the plugin also lints cleanly on PHP 5.6 through 8.4.
+* Security - The `query-demos` AJAX endpoint could be called by any logged-in user. It now requires the `switch_themes` capability, matching the Starter Sites screen it serves.
+* Fix - The bundled translation template was still named `mantranews-starter-sites.pot` after the rebrand, so translators generated files under the wrong name. It is now `mantrabrain-starter-sites.pot`, matching the text domain.
+
 = 1.1.8 - 2025/08/28 =
 * Update - 6.8 compatibility
 

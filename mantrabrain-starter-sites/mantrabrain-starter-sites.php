@@ -2,12 +2,14 @@
 /**
  * Plugin Name: MantraBrain Starter Sites
  * Description: Starter sites / Demo importer for Mantra Brain Themes
- * Version: 1.1.8
+ * Version: 1.1.9
  * Author: MantraBrain
  * Author URI: https://mantrabrain.com
  * License: GPLv3 or later
  * Text Domain: mantrabrain-starter-sites
  * Domain Path: /languages/
+ * Requires at least: 4.7
+ * Tested up to: 7.1
  * @package Mantrabrain_Starter_Sites
  */
 if (!defined('ABSPATH')) {

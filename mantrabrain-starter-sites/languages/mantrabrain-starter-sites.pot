@@ -1,0 +1,640 @@
+# Copyright (C) 2026 MantraBrain
+# This file is distributed under the GPLv3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: MantraBrain Starter Sites 1.1.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mantrabrain-starter-sites\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-21T14:40:09+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: mantrabrain-starter-sites\n"
+
+#. Plugin Name of the plugin
+#: mantrabrain-starter-sites.php
+msgid "MantraBrain Starter Sites"
+msgstr ""
+
+#. Description of the plugin
+#: mantrabrain-starter-sites.php
+msgid "Starter sites / Demo importer for Mantra Brain Themes"
+msgstr ""
+
+#. Author of the plugin
+#: mantrabrain-starter-sites.php
+msgid "MantraBrain"
+msgstr ""
+
+#. Author URI of the plugin
+#: mantrabrain-starter-sites.php
+msgid "https://mantrabrain.com"
+msgstr ""
+
+#: includes/admin/dashboard/class-mantrabrain-admin-dashboard.php:50
+msgid "Latest News From MantraBrain Blog"
+msgstr ""
+
+#: includes/admin/dashboard/class-mantrabrain-admin-dashboard.php:77
+msgid "New Themes"
+msgstr ""
+
+#: includes/admin/dashboard/class-mantrabrain-admin-dashboard.php:79
+#: includes/admin/dashboard/class-mantrabrain-admin-dashboard.php:85
+#: includes/admin/dashboard/class-mantrabrain-admin-dashboard.php:90
+msgid "opens in a new tab"
+msgstr ""
+
+#: includes/admin/dashboard/class-mantrabrain-admin-dashboard.php:83
+msgid "Blog Posts"
+msgstr ""
+
+#: includes/admin/dashboard/class-mantrabrain-admin-dashboard.php:88
+msgid "Main Site"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-importer.php:12
+#: includes/class-mantrabrain-demo-importer.php:96
+#: includes/class-mantrabrain-starter-sites.php:241
+msgid "Starter Sites"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-importer.php:14
+msgid "Upcoming Demos"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-importer.php:18
+msgid "The starter sites screen requires JavaScript."
+msgstr ""
+
+#: includes/admin/views/html-admin-page-importer.php:20
+msgid "Filter demos list"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-importer.php:41
+msgid "Without Page Builder"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-importer.php:50
+msgid "Themes list"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-importer.php:54
+#: includes/class-mantrabrain-demo-importer.php:197
+msgid "No demos found. Try a different search."
+msgstr ""
+
+#: includes/admin/views/html-admin-page-importer.php:68
+msgid "Premium"
+msgstr ""
+
+#. translators: %s: Demo author name
+#: includes/admin/views/html-admin-page-importer.php:73
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#. translators: %s: Demo name
+#: includes/admin/views/html-admin-page-importer.php:82
+#, php-format
+msgid "<span>Imported:</span> %s"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-importer.php:90
+#: includes/class-mantrabrain-demo-importer.php:158
+msgid "Live Preview"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-importer.php:93
+msgid "Buy Now"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-importer.php:95
+#: includes/admin/views/html-admin-page-importer.php:101
+msgid "Import"
+msgstr ""
+
+#. translators: %s: Demo name
+#: includes/admin/views/html-admin-page-importer.php:99
+#, php-format
+msgctxt "demo"
+msgid "Import %s"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-importer.php:105
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-importer.php:111
+msgctxt "demo"
+msgid "Imported"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:112
+msgctxt "Admin menu name"
+msgid "Starter Sites"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:150
+#: includes/class-mantrabrain-demo-importer.php:189
+msgid "Importing..."
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:151
+#, php-format
+msgctxt "demo"
+msgid "Importing %s..."
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:152
+msgid "Importing... please wait."
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:153
+msgid "Import completed successfully."
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:154
+msgid "Import Failed!"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:155
+#, php-format
+msgid "Import failed: %s"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:156
+#, php-format
+msgctxt "demo"
+msgid "%s imported!"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:157
+#, php-format
+msgctxt "demo"
+msgid "%s import failed"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:159
+#, php-format
+msgctxt "demo"
+msgid "Live Preview %s"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:160
+msgid "Imported!"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:161
+msgid "Try this solution!"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:179
+msgid "It is strongly recommended that you backup your database before proceeding. Are you sure you wish to run the reset wizard now?"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:180
+msgid "Demo Import Confirmation?"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:181
+msgid "Are you sure to import demo content?"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:184
+msgid "Demo Import Success"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:190
+msgid "Search Demos"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:191
+msgid "Search demos..."
+msgstr ""
+
+#. translators: %s: support forums URL
+#: includes/class-mantrabrain-demo-importer.php:193
+#, php-format
+msgid "An unexpected error occurred. Something may be wrong with Mantrabrain demo server&#8217;s configuration. If you continue to have problems, please try the <a href=\"%s\">support forums</a>."
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:194
+msgid "Try Again"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:195
+msgid "Please suggest us!"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:196
+#, php-format
+msgid "Number of Demos found: %d"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:198
+msgid "Collapse Sidebar"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:199
+msgid "Expand Sidebar"
+msgstr ""
+
+#. translators: accessibility text
+#: includes/class-mantrabrain-demo-importer.php:201
+msgid "Select one or more Demo features to filter by"
+msgstr ""
+
+#. translators: 1: Mantrabrain Starter Sites 2: five stars
+#: includes/class-mantrabrain-demo-importer.php:227
+#, php-format
+msgid "If you like %1$s please leave us a %2$s rating. A huge thanks in advance!"
+msgstr ""
+
+#. translators: %s: official Mantrabrain themes URL
+#: includes/class-mantrabrain-demo-importer.php:228
+#: includes/class-mantrabrain-starter-sites.php:276
+msgid "Mantrabrain Starter Sites"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:229
+msgid "Thanks :)"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:232
+msgid "Thank you for importing with Mantrabrain Starter Sites."
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:252
+#: includes/class-mantrabrain-demo-importer.php:254
+msgid "Help &amp; Support"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:256
+#, php-format
+msgid "Should you need help understanding, using, or extending Mantrabrain Starter Sites, <a href=\"%s\">please read our documentation</a>. You will find all kinds of resources including snippets, tutorials and much more."
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:260
+#, php-format
+msgid "For further assistance with Mantrabrain Starter Sites core you can use the <a href=\"%1$s\">community forum</a>. If you need help with premium themes sold by Mantrabrain, please <a href=\"%2$s\">use our free support forum</a>."
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:264
+msgid "Community forum"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:264
+msgid "Mantrabrain Support"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:269
+#: includes/class-mantrabrain-demo-importer.php:271
+msgid "Found a bug?"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:272
+#, php-format
+msgid "If you find a bug within Mantrabrain Starter Sites you can create a ticket via <a href=\"%1$s\">Github issues</a>. Ensure you read the <a href=\"%2$s\">contribution guide</a> prior to submitting your report. To help us solve your issue, please be as descriptive as possible."
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:273
+msgid "Report a bug"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:279
+msgid "For more information:"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:280
+msgid "About Starter Sites"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:281
+msgid "WordPress.org project"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:282
+msgid "Github project"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:283
+msgid "Official themes"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:284
+msgid "Official plugins"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:316
+msgid "Sorry, you are not allowed to view starter sites."
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:376
+#, php-format
+msgid "%s Pro"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:379
+msgid "Mantrabrain"
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:434
+msgid "No demo specified."
+msgstr ""
+
+#: includes/class-mantrabrain-demo-importer.php:450
+msgid "Sorry, you are not allowed to import content."
+msgstr ""
+
+#: includes/class-mantrabrain-starter-sites.php:53
+#: includes/class-mantrabrain-starter-sites.php:63
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/class-mantrabrain-starter-sites.php:241
+msgid "View Starter Sites"
+msgstr ""
+
+#: includes/class-mantrabrain-starter-sites.php:258
+msgid "View Demo Importer Documentation"
+msgstr ""
+
+#: includes/class-mantrabrain-starter-sites.php:258
+msgid "Docs"
+msgstr ""
+
+#: includes/class-mantrabrain-starter-sites.php:259
+msgid "Visit Free Customer Support Forum"
+msgstr ""
+
+#: includes/class-mantrabrain-starter-sites.php:259
+msgid "Free Support"
+msgstr ""
+
+#. translators: %s: official Mantrabrain themes URL
+#: includes/class-mantrabrain-starter-sites.php:276
+#, php-format
+msgid "This plugin requires %s to be activated to work."
+msgstr ""
+
+#. translators: %s: official Mantrabrain themes URL
+#: includes/class-mantrabrain-starter-sites.php:276
+msgid "Official Mantrabrain Theme"
+msgstr ""
+
+#: includes/functions.php:53
+msgid "No plugin specified."
+msgstr ""
+
+#: includes/functions.php:65
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr ""
+
+#: includes/functions.php:128
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+
+#. translators: %s: Number of plugins
+#: includes/functions.php:370
+#, php-format
+msgid "%s plugin successfully installed."
+msgstr ""
+
+#. translators: %s: Number of plugins
+#: includes/functions.php:377
+#, php-format
+msgid "%s plugins successfully installed."
+msgstr ""
+
+#. translators: %s: Number of failed installs
+#: includes/functions.php:387
+#, php-format
+msgid "%s install failed."
+msgstr ""
+
+#. translators: %s: Number of failed installs
+#: includes/functions.php:392
+#, php-format
+msgid "%s installs failed."
+msgstr ""
+
+#: includes/functions.php:395
+msgid "Show more details"
+msgstr ""
+
+#: includes/importers/class-mantrabrain-customizer-importer.php:36
+msgid "The customizer import file is not in a correct format. Please make sure to use the correct customizer import file."
+msgstr ""
+
+#: includes/importers/class-mantrabrain-customizer-importer.php:40
+msgid "The customizer import file is not suitable for current theme. You can only import customizer settings for the same theme or a child theme."
+msgstr ""
+
+#: includes/importers/class-mantrabrain-widget-importer.php:34
+msgid "Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: includes/importers/class-mantrabrain-widget-importer.php:71
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: includes/importers/class-mantrabrain-widget-importer.php:93
+msgid "Site does not support widget"
+msgstr ""
+
+#: includes/importers/class-mantrabrain-widget-importer.php:128
+msgid "Widget already exists"
+msgstr ""
+
+#: includes/importers/class-mantrabrain-widget-importer.php:187
+msgid "Imported"
+msgstr ""
+
+#: includes/importers/class-mantrabrain-widget-importer.php:190
+msgid "Imported to Inactive"
+msgstr ""
+
+#: includes/importers/class-mantrabrain-widget-importer.php:196
+msgid "No Title"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:134
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:187
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:191
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:200
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:170
+msgid "All done."
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:170
+msgid "Have fun!"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:171
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:192
+#, php-format
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:208
+#, php-format
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:234
+#, php-format
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:261
+msgid "Assign Authors"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:262
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:264
+#, php-format
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:274
+msgid "Import Attachments"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:277
+msgid "Download and import file attachments"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:282
+msgid "Submit"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:296
+msgid "Import author:"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:307
+msgid "or create new user with login name:"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:310
+msgid "as a new user:"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:318
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:320
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:321
+msgid "- Select -"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:372
+#, php-format
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:470
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:520
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:745
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:878
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:885
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:954
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:967
+msgid "Invalid file type"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:1029
+msgid "Remote server did not respond"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:1037
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:1044
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:1049
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:1055
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:1160
+msgid "Import WordPress"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:1167
+#, php-format
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:1184
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-importer.php:1185
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-parsers.php:44
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-parsers.php:74
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-parsers.php:82
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-parsers.php:45
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-parsers.php:86
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-parsers.php:91
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-parsers.php:308
+#: includes/importers/wordpress-importer/class-mantrabrain-wxr-parsers.php:504
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
